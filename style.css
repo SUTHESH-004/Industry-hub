@@ -125,6 +125,8 @@ input::placeholder{
  justify-content: center;
 }
 .loginbox {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color:black;
     width: 50%;
@@ -132,7 +134,11 @@ input::placeholder{
     border: none;
     padding: none;
     background-color: white;
+    transition-duration:1s;
+    /* transition-delay: 1s; */
 }
 .loginbox:hover{
+    background-color: black;
+    color: white;
     
 }
