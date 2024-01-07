@@ -5,11 +5,14 @@ body{
     background-image: url(images/alexander-grey-62vi3TG5EDg-unsplash.jpg);
     background-size: cover;
     background-repeat:no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .fullbody
 {
     height: 100%;
     width: 100%;
+
     /* display: flex; */
     /* a: center; */
     /* justify-content: center; */
@@ -22,7 +25,6 @@ body{
     margin:auto;
     margin-top:30px;
     background-color:rgba(0, 0, 255, 0);
-
     border: 2px solid white;
     border-radius: 5px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -35,33 +37,102 @@ body{
 {
     height:700px;
     width:  500px;
+    background-image: url(images/photo1704610983\ \(1\).png);
+    opacity: 90%;
+    /* background-color: rgba(255, 192, 203, 0.091); */
+    /* background-color: blue; */
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: 10%;
     /* background-color: green; */
 }
 .rightbox
 {
     height:700px;
     width:  600px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius:2px
+    border-radius:2px;
+    color: white;
 }
+.rightbox i{
+    display: inline-block;
+    translate:105px -25px;
+    
+}
+/* }
+.rightbox p{
+    display: block;
+} */
 h2{
-    font-size: 100px;
-    font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+   
+    margin-bottom: 20px;
 }
 .login
 {
-  height: 350px;
-  width:350px;
-  /* background-color: aqua; */
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items:center;
-  border-radius:5px
 
+  height: 350px;
+  width:360px;
+  /* background-color: aqua; */
+  border-radius:5px ;
+  border: 1px solid white ;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+  display:flex; 
+ flex-direction:column;
+   justify-content:center; 
+   align-items:center;
+   
+}
+.inputbox{
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+
+   background-color:white;
+   /* object-fit: contain; */
+   margin: 20px;
+   /* padding: 1px 1px 1px 1px; */
+   
+
+}
+
+.inputbox input{
+    border: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius:5px ;
+
+    /* background-color:red; */
+
+}
+input::placeholder{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+.boxlast{
+    margin-top:40px;
+ display:flex;
+ justify-content: center;
+}
+.loginbox {
+    text-align: center;
+    color:black;
+    width: 50%;
+    height: 30px;
+    border: none;
+    padding: none;
+    background-color: white;
+}
+.loginbox:hover{
+    
 }
