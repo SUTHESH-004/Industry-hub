@@ -1,0 +1,67 @@
+body{
+           
+    height:100%;
+    width:100%;
+    background-image: url(images/alexander-grey-62vi3TG5EDg-unsplash.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.fullbody
+{
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    /* a: center; */
+    /* justify-content: center; */
+}
+
+.outerbox
+{
+    height: 700px;
+    width: 1200px;
+    margin:auto;
+    margin-top:30px;
+    background-color:rgba(0, 0, 255, 0);
+
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    /* background-image: url(images/alexander-grey-62vi3TG5EDg-unsplash.jpg); */
+}
+.leftbox
+{
+    height:700px;
+    width:  500px;
+    /* background-color: green; */
+}
+.rightbox
+{
+    height:700px;
+    width:  600px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:2px
+}
+h2{
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.login
+{
+  height: 350px;
+  width:350px;
+  /* background-color: aqua; */
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  border-radius:5px
+
+}
