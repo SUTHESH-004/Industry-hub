@@ -8,17 +8,94 @@
     <style>
        body{
         width: 100%;
-        height: 100%;
-        background-image: linear-gradient(to right,#9291A3,#E8CFCA,#C0A6A9);
+        height: 1000px;
+        background-image: url(images/shali-pnsAkRHzzPA-unsplash.jpg);
+        /* background-image: linear-gradient(to left bottom,#ecd3cffd,rgb(249, 249, 249),rgb(240,215,208)); */
+        /* opacity: 10px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
        }
+       .inner{
+           height:600px;
+        width: 1200px;
+        background: white;
+        background:linear-gradient(to right bottom,rgba(255,255,255,0.3),rgb(255, 255, 255,0.3));
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        backdrop-filter: blur(2rem);
+        border-radius: 1rem;
+        
+        
+       }
+       .circle1
+       {
+        height:200px;
+        width: 200px;
+     background:linear-gradient(to right bottom,rgba(255,255,255,0.3),rgb(255, 255, 255,0.3));
+     border-radius:10rem;
+     z-index: -1;
+     translate:100px 300px;
+     backdrop-filter: blur(2rem);
+     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    
+       }
+       .circle2{
+        height: 200px;
+        width: 200px;
+        /* background-color: blue; */
+background:linear-gradient(to right bottom,rgba(255,255,255,0.3),rgba(255,255,255,0.3));
+border-radius:10rem;
+z-index:-1;
+translate: -100px -300px;
+backdrop-filter: blur(2rem);
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+       }
+       .circle{
+        height: 200px;
+        width: 200px;
+        position:absolute;
+        left: auto;
+        right: auto ;
+        display:none;
+        /* background-color: blue; */
+background:linear-gradient(to right bottom,rgba(255,255,255,0.3),rgba(255,255,255,0.3));
+border-radius:10rem;
+z-index:-2;
+/* translate: -100px -300px; */
+backdrop-filter: blur(2rem);
+box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+       translate: -100px -400px;
 
-
-
+       }
+       
     </style>
+    <script>
+      window.addEventListener(scroll,function(){
+        let h = document.getElementById("circle10")
+        if(scrollY>0)
+        {
+           add.classList.add(scroll);
+        }
+        else{
+            add.classList.add(scroll);
+        }
+      });
+    </script>
 </head>
 
 <body>
-    <h1>Suthesh is the Great Student</h1>
+    <div class="circle1" id="circle10">   </div>
+     <div class="inner">
+     </div>
+     <div class="circle2">   </div>
+     <div class="circle">   </div>
+     <div class="circle">   </div>
+     <div class="circle">   </div>
+     <div class="circle">   </div>
+     <div class="circle">   </div>
 
 </body>
 </html>
